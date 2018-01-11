@@ -16,31 +16,45 @@
       <p>Tell us a little bit about yourself, and we'll find your celebrity true love.</p>
 
       <form id="celebmatch">
-        <label for="age">Age</label>
-        <input id="age" type="text">
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input id="age" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender">
+            <option value="wizard">Wizard</option>
+            <option value="hobbit">Hobbit</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="aliens">Are aliens real?</label>
+          <select id="aliens">
+            <option value="yes">Obviously</option>
+            <option value="no">Yeah right...</option>
+          </select>
+        </div>
+
+        <div>
+        <button type="submit" class="btn">TELL ME WHO I SHOULD SPEND MY LIFE WITH!
+        </button>
+      </div>
       </form>
+      <div>
+        <div id="jennifer">
+          <p>Congrats, you matched with Jennifer Aniston!</p>
+        </div>
 
-      <form id="celebmatch">
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="wizard">Wizard</option>
-          <option value="hobbit">Hobbit</option>
-        </select>
-      </form>
+        <div id="ben">
+          <p>Congrats, you matched with Ben Affleck!</p>
+        </div>
 
-      <form id="celebmatch">
-        <label for="aliens">Are aliens real?</label>
-        <select id="aliens">
-          <option value="yes">Obviously</option>
-          <option value="no">Yeah right...</option>
-        </select>
-      </form>
-
-      <form id="celebmatch"
-        <button type="submit" class="btn">TELL ME WHO I SHOULD SPEND MY LIFE WITH!</button>
-      </form>
-
-
+        <div id="chris">
+          <p>Congrats, you matched with Christopher Walken!</p>
+        </div>
+      </div>
 
     </div>
 
